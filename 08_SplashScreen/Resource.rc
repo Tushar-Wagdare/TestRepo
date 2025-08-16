@@ -1,0 +1,4 @@
+#include "Resource.h"
+
+SPLASHSCREEN_ID   BITMAP    "SplashScreen.bmp"
+

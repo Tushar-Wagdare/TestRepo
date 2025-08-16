@@ -1,0 +1,30 @@
+#include"Resource.h"
+
+
+IDR_MENU MENU 
+BEGIN
+	POPUP "&File"
+	BEGIN
+	    MENUITEM "&New", IDM_FILE_NEW
+	    MENUITEM SEPARATOR
+	    MENUITEM "&Exit", IDM_FILE_EXIT
+    END
+
+
+POPUP "&Popup"
+BEGIN
+    MENUITEM "&Command", IDM_ITEM1
+	END
+
+
+POPUP "&Tree"
+	BEGIN
+	POPUP "&Branch", 
+		BEGIN
+			MENUITEM "&Leaf", IDM_ITEM3
+			MENUITEM "&BBB", IDM_ITEM2
+		END
+	END
+
+END
+

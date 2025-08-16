@@ -1,0 +1,35 @@
+#include"Resource.h"
+
+
+IDR_MENU MENU 
+BEGIN
+	POPUP "&File"
+	BEGIN
+	    MENUITEM "&Exit", IDM_FILE_EXIT
+	END
+
+
+	POPUP "&Console"
+	BEGIN
+		POPUP "&Open"
+			BEGIN
+				MENUITEM "&Console", IDM_OPEN_CONSOLE
+				MENUITEM "&Open .rc", IDM_OPEN_RC
+				MENUITEM "&Open .h", IDM_OPEN_H
+			END
+		MENUITEM "&Test", IDM_TEST
+		MENUITEM "&Close", IDM_CLOSE
+	END
+
+
+	POPUP "&Tree"
+		BEGIN
+		POPUP "&Branch", 
+			BEGIN
+				MENUITEM "&Leaf", IDM_ITEM1
+				MENUITEM "&BBB", IDM_ITEM2
+			END
+		END
+
+END
+

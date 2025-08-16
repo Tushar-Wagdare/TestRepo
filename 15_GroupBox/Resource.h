@@ -1,0 +1,7 @@
+#define IDB_RADIO01 101
+#define IDB_RADIO02 102
+#define IDB_RADIO03 103
+#define IDB_RADIO04 104
+#define IDB_RADIO05 105
+
+

@@ -1,0 +1,4 @@
+#define SPLASHSCREEN_ID 101
+
+
+
